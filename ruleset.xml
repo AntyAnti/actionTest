@@ -73,10 +73,6 @@
 
   <block>Formatting</block>
   <rule ref="Generic.Formatting.SpaceAfterCast" />
-  <rule ref="Shoptet.Formatting.BlankLineBeforeReturn.Invalid">
-    <note>Not that good idea in some cases like really short blocks and cases, maybe FIXME later</note>
-    <exclude name="Shoptet.Formatting.BlankLineBeforeReturn.Invalid" />
-  </rule>
 
   <block>Functions and methods</block>
   <rule ref="Generic.Functions.CallTimePassByReference" note="Forbids call time pass by reference" />
