@@ -34,8 +34,8 @@
     "scripts": {
         "phpstan": "php vendor/phpstan/phpstan/phpstan analyze -v -c phpstan.neon.dist --memory-limit=-1",
         "phpstan:clear-cache": "php vendor/phpstan/phpstan/phpstan clear-result-cache -c phpstan.neon.dist",
-        "lint": "php vendor/php-parallel-lint/php-parallel-lint/parallel-lint api-sdk/php/build/src",
-        "phpcs": "php vendor/squizlabs/php_codesniffer/bin/phpcs -sp --cache api-sdk/php/build/src --standard=ruleset.xml"
+        "lint": "php vendor/php-parallel-lint/php-parallel-lint/parallel-lint src",
+        "phpcs": "php vendor/squizlabs/php_codesniffer/bin/phpcs -sp --cache src --standard=ruleset.xml"
     },
     "scripts-descriptions": {
         "phpstan": "Run PHPStan",
